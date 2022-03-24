@@ -24,7 +24,6 @@
         "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-theme/understrap": "1.1.0",
-        "studiopress/genesis-sample": "dev-master",
 
         "predis/predis": "~1",
         "wp-cli/wp-cli": "^2"
@@ -56,10 +55,6 @@
         {
             "type": "composer",
             "url": "https://wp-cli.org/package-index"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/studiopress/genesis-sample"
         }
         
     ],
@@ -74,6 +69,9 @@
                 "type:wordpress-plugin"
             ],
             "vendor/wordpress/wordpress-ext/wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ],
+            "vendor/wordpress/wordpress-ext/wp-content/themes/genesis": [
                 "type:wordpress-theme"
             ]
         }
