@@ -23,7 +23,8 @@
 
         "humanmade/s3-uploads": "~2",
         "wpackagist-plugin/jetpack": "*",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-theme/understrap": "1.1.0",
+
 
         "predis/predis": "~1",
         "wp-cli/wp-cli": "^2"
@@ -76,5 +77,10 @@
         "post-install-cmd": [
             "./support/app_slug_compile.sh"
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
