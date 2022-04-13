@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b729b36f93aadbea22626e4edb5c2df",
+    "content-hash": "098a15c25a3240b02568bf8dbd35ea11",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -1613,7 +1613,7 @@
     "prefer-lowest": false,
     "platform": {
         "ext-gd": "*",
-        "php": "7.*"
+        "php": "8.*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
